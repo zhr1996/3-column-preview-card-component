@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca";
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 20%;
+  line-height: 1.8em;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  padding-bottom: 10%;
+}
+
+img {
+  padding-bottom: 10%;
+  width: 20%;
+}
+body {
+  padding: 5% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 840px;
+}
+
+.card {
+  padding: 5%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.sedans .learn-more {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.suvs .learn-more {
+  color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+.luxury .learn-more {
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+
+.learn-more {
+  text-decoration: none;
+  padding: 5%;
+  background-color: hsl(0, 0%, 95%);
+  text-transform: capitalize;
+  border-radius: 50px;
+  border: none;
+}
