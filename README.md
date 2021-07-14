@@ -62,6 +62,10 @@ Users should be able to:
   ```
   - set html height to 100% to fill all the page
 
+- ```css
+  margin-top:auto;
+  ```
+  - set the margin-top:auto can make the element at the end of the flexbox
 ### Continued development
 
 To make the three buttons align on a line

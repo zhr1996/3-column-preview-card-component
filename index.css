@@ -17,8 +17,9 @@ body {
 }
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  margin-bottom: 20%;
+  margin-bottom: 30%;
   line-height: 1.8em;
+  height: 40%;
 }
 
 h1 {
@@ -52,6 +53,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  flex-wrap:wrap;
 }
 
 .sedans {
@@ -86,6 +88,7 @@ body {
 }
 
 .learn-more {
+  margin-top:auto;
   text-decoration: none;
   padding: 5%;
   background-color: hsl(0, 0%, 95%);
